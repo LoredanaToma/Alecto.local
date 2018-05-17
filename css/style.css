@@ -1,23 +1,21 @@
-
 .container{
 	max-width: 1200px;
 	height: 7500px;
 	margin: 0 auto;
 	position: relative;
 	background: #000406;
+	
 }
 #logo
 {
-	color: white;
-	font-family: ﻿Roboto-Medium, AdobeInvisFont, MyriadPro-Regular;
-	text-align: left;
-	font-size:24pt;
 	padding-top: 20px;
 	padding-left: 20px;	
 }
 
 ul
-{
+{ 
+	max-width: 509px;
+	max-height: 11px;
 	list-style-type:none;
 	float:right;
 	padding: 30px;
@@ -26,11 +24,12 @@ ul
 }
 
 li {
+	font-size:14pt;
+	font-family:﻿Raleway-Bold;
 	color: white;
 	float:left;
 	position: center;
 	padding-left: 15px;
-	font-size:16pt;
 
 }
 li a:link, a:visited 
@@ -40,5 +39,6 @@ li a:link, a:visited
 }
 li a:hover, a:active
 {  
-	color: #97c248;
+	color: mediumspringgreen;
+	
 }
