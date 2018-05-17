@@ -1,0 +1,44 @@
+
+.container{
+	max-width: 1200px;
+	height: 7500px;
+	margin: 0 auto;
+	position: relative;
+	background: #000406;
+}
+#logo
+{
+	color: white;
+	font-family: ﻿Roboto-Medium, AdobeInvisFont, MyriadPro-Regular;
+	text-align: left;
+	font-size:24pt;
+	padding-top: 20px;
+	padding-left: 20px;	
+}
+
+ul
+{
+	list-style-type:none;
+	float:right;
+	padding: 30px;
+	color: white;
+	display: inline;
+}
+
+li {
+	color: white;
+	float:left;
+	position: center;
+	padding-left: 15px;
+	font-size:16pt;
+
+}
+li a:link, a:visited 
+{
+	color: white;
+	text-align: center;
+}
+li a:hover, a:active
+{  
+	color: #97c248;
+}
