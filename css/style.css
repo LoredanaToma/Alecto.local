@@ -1,9 +1,7 @@
 .container{
 	max-width: 1200px;
-	height: 7500px;
 	margin: 0 auto;
-	position: relative;
-	background: #000406;
+    position: relative;
 	
 }
 #logo
@@ -14,8 +12,6 @@
 
 ul
 { 
-	max-width: 509px;
-	max-height: 11px;
 	list-style-type:none;
 	float:right;
 	padding: 30px;
@@ -41,4 +37,26 @@ li a:hover, a:active
 {  
 	color: mediumspringgreen;
 	
+}
+#myCarousel {
+   max-width:1200px; 
+   position:absolute;
+   top:0;
+}
+
+  header{
+  	position:absolute;
+  	top:5px;
+  	width:100%;
+  	z-index: 999;
+  	padding: 0;
+  }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
 }
