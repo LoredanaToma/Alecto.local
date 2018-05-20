@@ -35,22 +35,26 @@ li a:link, a:visited
 }
 li a:hover, a:active
 {  
-	color: mediumspringgreen;
+	color:#17DAA0;
 	
+}
+.nav{
+	position:absolute;
+	width: 100%;
+	z-index:999;
+	background: none;
+}
+.navigation{
+	float: left;
+	width: 100%;
+	background: white;
+    background: #000406;
 }
 #myCarousel {
    max-width:1200px; 
    position:absolute;
    top:0;
 }
-
-  header{
-  	position:absolute;
-  	top:5px;
-  	width:100%;
-  	z-index: 999;
-  	padding: 0;
-  }
 .footer {
    position: fixed;
    left: 0;
@@ -59,4 +63,43 @@ li a:hover, a:active
    background-color: white;
    color: black;
    text-align: center;
+}
+.circle-icon-2 {
+    background:#17DAA0;
+    width: 150px;
+    height:150px;
+    border-radius: 70%;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
+    padding: 0;
+}
+.circle-icon {
+    background:#EEEFF3;
+    width: 150px;
+    height:150px;
+    border-radius: 70%;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
+    padding: 0;
+}
+.about{
+	color:gray;
+	position: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	float: left;
+}
+
+.button-learn-more {
+border-radius: 25px;
+width:183px;
+height: 47px;
+color:white;
+font-size: 14px;
+bottom: center;
+background-color: #17DAA0;
 }
