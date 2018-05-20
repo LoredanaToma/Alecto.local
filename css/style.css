@@ -92,6 +92,8 @@ li a:hover, a:active
 	padding-left: 50px;
 	padding-right: 50px;
 	float: left;
+	margin: auto;
+	align-items: center;
 }
 
 .button-learn-more {
@@ -102,4 +104,10 @@ color:white;
 font-size: 14px;
 bottom: center;
 background-color: #17DAA0;
+margin: auto;
+align-items: center;
+}
+.article {
+padding-top: 100px;
+padding-bottom: 100px;
 }
