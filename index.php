@@ -1,9 +1,9 @@
-<!doctype html>
+<!Doctype html>
 <html>
 <? include "head.php";?>
 <body>
-    <div class="container">
-<? include "header.php";?>
+  <div class="container">
+    <? include "header.php";?>
 
 
     <div class="carousel"> <!-- Linia carusel--> 
@@ -46,7 +46,7 @@
       </div>
       <script src="js/jquery.min.js"></script> 
       <script src="js/bootstrap.min.js"></script> 
+       <? include "footer.php";?>
     </div> 
-    <? include "footer.php";?>
-  </body>
-  </html>
+ </body>
+</html>

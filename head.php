@@ -1,5 +1,3 @@
-<!Doctype html>
-<html>
 <head>
     <title>Alecto</title>
     <meta charset="UTF-8">
